@@ -3,7 +3,7 @@
 """""""""""""""""""""""""""
 let g:lv_restore_last_im = 0
 let s:is_abc_path = expand('<sfile>:p:h') . "/is_abc"
-let s:toggle_input_method_path = expand('<sfile>:p:h') . "/cmd_space.scpt"
+let s:toggle_input_method_path = expand('<sfile>:p:h') . "/" . g:autoim_toggle_shortcut . ".scpt"
 let s:toggle_input_method_command = 'osascript ' . s:toggle_input_method_path
 
 function! AutoIM(event)
