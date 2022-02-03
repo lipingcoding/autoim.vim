@@ -7,9 +7,8 @@
 ### 使用 Vim-Plug 插件
 在你的配置文件中（通常是 .vimrc ）加入如下代码片段
 ```
-call plug#begin()
-Plug lipingcoding/autoim.vim
-call plug#end()
+Plug 'lipingcoding/autoim.vim'
+
 ```
 
 
