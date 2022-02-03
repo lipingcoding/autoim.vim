@@ -21,6 +21,10 @@ let g:autoim_toggle_shortcut = 'cmd_space'
 ```
 let g:autoim_toggle_shortcut = 'ctrl_space'
 ```
+如果是 ctrl-cmd-space 那就应该是：
+```
+let g:autoim_toggle_shortcut = 'ctrl_cmd_space'
+```
 
 ## 具有类似功能的插件
 - [smartim](https://github.com/ybian/smartim)
