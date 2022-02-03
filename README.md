@@ -7,9 +7,8 @@
 ### 使用 Vim-Plug 插件
 在你的配置文件中（通常是 .vimrc ）加入如下代码片段
 ```
-call plug#begin()
-Plug lipingcoding/autoim.vim
-call plug#end()
+Plug 'lipingcoding/autoim.vim'
+
 ```
 
 
@@ -21,6 +20,10 @@ let g:autoim_toggle_shortcut = 'cmd_space'
 本插件的原理是通过 Applescript *模拟切换输入法的快捷键*，所以上面的代码假设你的电脑切换输入法的快捷键是 cmd-space, 如果你的快捷键是 ctrl-space, 那就应该是：
 ```
 let g:autoim_toggle_shortcut = 'ctrl_space'
+```
+如果是 ctrl-cmd-space 那就应该是：
+```
+let g:autoim_toggle_shortcut = 'ctrl_cmd_space'
 ```
 
 ## 具有类似功能的插件
